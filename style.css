@@ -1,11 +1,89 @@
+@font-face {
+    font-family: 'Ramche';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Ramche.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     display: flex;
+    align-items: center;
+    background-color:gray;
 }
 
 .mainScreen{
+    display: grid;
+    margin: 0 auto;
+    margin-top: 30px;
     width: 90vw;
     height: 90vh;
-    background-color: black;
-    position: relative;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.gameTextTitle{
+    display: grid;
+    margin-top: 10%;
+    width: 90vw;
+    height: 100px;
+    justify-content: center;
+    font-family: 'Ramche';
+    text-align: center;
+}
+
+.gameMainTitle{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.gameSubTitle{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.RockSissorsPaper{
+    font-size: 150px;
+    justify-content: center;
+    display: flex;
+}
+
+.gameExplain{
+    text-align: center;
+    font-family: 'Ramche';
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 160%;
+}
+
+.gameStartButton{
+    width: 140px;
+    height: 75px;
     margin: 0 auto;
+    font-family: 'Ramche';
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+
+.gameWinCount{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ramche';
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+}
+
+.userInfo{
+    display: grid;
+}
+
+.computerInfo{
+    display: grid;
 }
