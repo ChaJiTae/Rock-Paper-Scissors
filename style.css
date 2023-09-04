@@ -105,8 +105,15 @@ body{
 .gameUserButton{
     text-align: center;
     font-size: 100px;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    cursor:pointer;
+    border: 0px;
+    background-color:transparent;
+}
+
+.gameUserButton:hover {
+    transform: scale(2);
 }
 
 /*
