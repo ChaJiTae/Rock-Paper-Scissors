@@ -129,4 +129,19 @@ body{
     text-align: center;
 }
 
+.regame{
+    width: 140px;
+    height: 75px;
+    margin: 0 auto;
+    font-family: 'Ramche';
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
 /* 진행 상황이랑 버튼 수정하면 좋을듯함 */
