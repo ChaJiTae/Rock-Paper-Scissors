@@ -46,7 +46,7 @@ const clickButton = () => {
     // 랜덤 값으로 변환 되는 구문
     computerResult.innerText = `${computerResultSet[randomComputerValue]}`;
     // 중지 된 이벤트 다시 시작
-    randomResult = setInterval(computerChange, 300);
+    randomResult = setInterval(computerChange, 400);
 }
 
 // 가위 버튼 클릭시 이벤트
