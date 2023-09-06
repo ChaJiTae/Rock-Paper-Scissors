@@ -116,12 +116,6 @@ body{
     transform: scale(2);
 }
 
-/*
-.userSissorsButton{}
-.userRockButton{}
-.userPaperButton{}
-*/
-
 .currentGameResult{
     width: 100%;
     font-family: 'Ramche';
@@ -143,5 +137,3 @@ body{
     cursor: pointer;
     display: none;
 }
-
-/* 진행 상황이랑 버튼 수정하면 좋을듯함 */
